@@ -1,0 +1,21 @@
+name = Commons Activity Streams Groups
+description = Contains Organic Groups integration for Commons Activity Streams
+core = 7.x
+package = Commons - Building blocks
+php = 5.2.4
+version = 7.x-3.0-alpha1
+project = commons_activity_streams_groups
+dependencies[] = commons_activity_streams
+dependencies[] = entity
+dependencies[] = views
+dependencies[] = views_content
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = activity_group
+
+; Information added by drupal.org packaging script on 2013-02-25
+version = "7.x-3.x-dev"
+core = "7.x"
+project = "commons_activity_streams"
+datestamp = "1361753001"
+
